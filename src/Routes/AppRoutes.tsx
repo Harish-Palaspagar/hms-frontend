@@ -94,7 +94,7 @@ const AppRoutes = () => {
           <Route path="appointments" element={<PatientAppointmentPage />} />
           <Route path="book" element={<Random />} />
         </Route>
-        <Route path="*" element={<NotFoundPage />} />
+        <Route path="*" element={<LoginPage />} />
       </Routes>
     </BrowserRouter>
   );
